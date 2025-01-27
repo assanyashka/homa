@@ -73,6 +73,24 @@
             background: #ccc;
             color: #000;
         }
+
+        .about-container {
+            margin-top: 30px;
+            background: rgba(50, 50, 50, 0.7); /* Серый с прозрачностью */
+            border: 2px solid #fff;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* Белое свечение */
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            color: #fff;
+            text-align: left;
+        }
+
+        .about-container hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
@@ -85,6 +103,13 @@
             <button>Кнопка 1</button>
             <button>Кнопка 2</button>
             <button>Кнопка 3</button>
+        </div>
+        <div class="about-container">
+            <strong>About me:</strong>
+            <hr>
+            <p>Name: Homa</p>
+            <p>Age: ???</p>
+            <p>Таксист.</p>
         </div>
     </div>
     <video autoplay muted loop id="bg-video">
